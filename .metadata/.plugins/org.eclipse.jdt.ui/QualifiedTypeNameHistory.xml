@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="FuncionarioTeste"/>
+    <fullyQualifiedTypeName name="EditorVideo"/>
+    <fullyQualifiedTypeName name="Designer"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+    <fullyQualifiedTypeName name="Gerente"/>
+    <fullyQualifiedTypeName name="SistemaInterno"/>
+    <fullyQualifiedTypeName name="Administrador"/>
+    <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="AutenticacaoUtil"/>
+</qualifiedTypeNameHistroy>

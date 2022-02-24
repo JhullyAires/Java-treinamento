@@ -11,23 +11,23 @@ public class TesteArrayReferencia {
 		
 //		int[] idades = new int[5];
 //		Conta[] contas = new Conta[5];  // generico
-		Object[] contas = new Object[5]; //ainda mais generico
+		Object[] referencias = new Object[5]; //ainda mais generico
 		
 		ContaCorrente cc1 = new ContaCorrente(22, 11);
-		contas[0] = cc1;
+		referencias[0] = cc1;
 		
 		ContaPoupanca cc2 = new ContaPoupanca(22, 33);
-		contas[1] = cc2;
+		referencias[1] = cc2;
 		
 		Cliente cliente = new Cliente();
-		contas[2] = cliente;
+		referencias[2] = cliente;
 		
-		Object referenciaGenerica = contas[1];
-		System.out.println(referenciaGenerica.getNumero());
+//		Object referenciaGenerica = contas[1];
+//		System.out.println(referenciaGenerica.getNumero());
 
-		System.out.println(contas[1].getNumero());
+//		System.out.println(referencias[1].getNumero());
 		
-		ContaCorrente ref = (ContaCorrente) contas[1]; // type cast, transformar um tipo generico em mais específico
+		ContaCorrente ref = (ContaCorrente) referencias[1]; // type cast, transformar um tipo generico em mais específico
 		System.out.println(cc2.getNumero());
 		System.out.println(ref.getNumero());
 

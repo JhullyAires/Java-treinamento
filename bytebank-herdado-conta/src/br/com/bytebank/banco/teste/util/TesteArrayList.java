@@ -2,15 +2,26 @@ package br.com.bytebank.banco.teste.util;
 
 import java.util.ArrayList;
 
+import br.com.bytebank.banco.modelo.Cliente;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 
-public class Teste {
+public class TesteArrayList {
 
 	public static void main(String[] args) {
 		
-		//especificando entre <> que o sistema SÓ aceita Conta
+		// GENERICS
+		// especificando entre <> que o sistema SÓ aceita referencia do tipo <Conta>
 		ArrayList<Conta> lista = new ArrayList<Conta>();
+		
+		//OU a variação/simplificação que entrou no java 1.7 : 
+		ArrayList<Cliente> cliente = new ArrayList<>();
+		
+		ArrayList<String> nomes = new ArrayList<String>();
+		
+//		Nem sequer compila por conta da ordem acima do array ser apenas de <Conta>
+//		Cliente cliente = new Cliente();
+//		lista.add(cliente);
 		
 		Conta cc1 = new ContaCorrente(22, 11);
 		lista.add(cc1);
@@ -20,7 +31,7 @@ public class Teste {
 		
 		System.out.println("Tamanho: " + lista.size());
 		
-		Conta ref = (Conta) lista.get(0);
+		Conta ref = lista.get(0);
 		
 		System.out.println(ref.getNumero());
 		
@@ -42,8 +53,8 @@ public class Teste {
 		System.out.println("---------------");
 		
 		//mesmo resultado mas mais atualizado e clean
-		for(Object oRef : lista) {
-			System.out.println(oRef);
+		for(Conta conta : lista) {
+			System.out.println(conta);
 		}
 		
 	}

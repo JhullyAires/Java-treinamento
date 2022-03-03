@@ -1,6 +1,7 @@
 package br.com.bytebank.banco.teste.util;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -17,18 +18,23 @@ public class TesteArrayList {
 		// especificando entre <> que o sistema SÓ aceita referencia do tipo <Conta>
 //		ArrayList<Conta> lista = new ArrayList<Conta>();
 		
-		List<Conta> lista = new ArrayList<Conta>();
-
-		// Vector
-//		List<Conta> lista = new Vector<Conta>(); //thread safe para multiplos main, como nesse projeto não é o caso, seu uso é desnecessário
-
-		
 		//OU a variação/simplificação que entrou no java 1.7 : 
 //		ArrayList<Conta> lista = new ArrayList<>();
+		
+		// LINKEDLIST
+//		List<Conta> lista = new LinkedList<Conta>(); // entre os dois, é preferível usar o ArrayList
+
+		// VECTOR
+//		List<Conta> lista = new Vector<Conta>(); //thread safe para multiplos main, como nesse projeto não é o caso, seu uso é desnecessário
+		
+		// COLLECTIONS
+//		Collections<Conta> lista = new ArrayList<Conta>(); // não funciona pq há métodos de List que não existem em Collections
 		
 //		Nem sequer compila por conta da ordem acima do array ser apenas de <Conta>
 //		Cliente cliente = new Cliente();
 //		lista.add(cliente);
+		
+		List<Conta> lista = new ArrayList<Conta>();
 		
 		Conta cc1 = new ContaCorrente(22, 11);
 		lista.add(cc1);

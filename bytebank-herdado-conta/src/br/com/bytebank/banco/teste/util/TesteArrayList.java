@@ -1,6 +1,8 @@
 package br.com.bytebank.banco.teste.util;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 import br.com.bytebank.banco.modelo.Cliente;
 import br.com.bytebank.banco.modelo.Conta;
@@ -12,12 +14,13 @@ public class TesteArrayList {
 		
 		// GENERICS
 		// especificando entre <> que o sistema SÓ aceita referencia do tipo <Conta>
-		ArrayList<Conta> lista = new ArrayList<Conta>();
+//		ArrayList<Conta> lista = new ArrayList<Conta>();
+		
+		List<Conta> lista = new ArrayList<Conta>();
+
 		
 		//OU a variação/simplificação que entrou no java 1.7 : 
-		ArrayList<Cliente> cliente = new ArrayList<>();
-		
-		ArrayList<String> nomes = new ArrayList<String>();
+//		ArrayList<Conta> lista = new ArrayList<>();
 		
 //		Nem sequer compila por conta da ordem acima do array ser apenas de <Conta>
 //		Cliente cliente = new Cliente();

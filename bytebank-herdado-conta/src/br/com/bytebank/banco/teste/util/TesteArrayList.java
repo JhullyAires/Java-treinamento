@@ -3,6 +3,7 @@ package br.com.bytebank.banco.teste.util;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
 import br.com.bytebank.banco.modelo.Cliente;
 import br.com.bytebank.banco.modelo.Conta;
@@ -17,6 +18,9 @@ public class TesteArrayList {
 //		ArrayList<Conta> lista = new ArrayList<Conta>();
 		
 		List<Conta> lista = new ArrayList<Conta>();
+
+		// Vector
+//		List<Conta> lista = new Vector<Conta>(); //thread safe para multiplos main, como nesse projeto não é o caso, seu uso é desnecessário
 
 		
 		//OU a variação/simplificação que entrou no java 1.7 : 

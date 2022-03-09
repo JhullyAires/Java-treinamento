@@ -10,7 +10,7 @@ import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
-public class Teste {
+public class TesteOrdenacao {
 	public static void main(String[] args) {
 
 		Conta cc1 = new ContaCorrente(22, 33);
@@ -51,8 +51,9 @@ public class Teste {
 //		TitularDaContaComparator titularComparator = new TitularDaContaComparator();  // instancia
 //		lista.sort(titularComparator);  // para ordenar
 		
-//		lista.sort(new TitularDaContaComparator()); // instancia e ordena ao mesmo tempo
-		Collections.sort(lista, new NumeroDaContaComparator());
+		lista.sort(new TitularDaContaComparator()); // instancia e ordena ao mesmo tempo
+		
+//		Collections.sort(lista, new NumeroDaContaComparator());
 //		Collections.sort(lista);
 //		Collections.reverse(lista); // para reverter a ordem de uma lista
 //		Collections.shuffle(lista); // para embaralhar todos os documentos de uma lista

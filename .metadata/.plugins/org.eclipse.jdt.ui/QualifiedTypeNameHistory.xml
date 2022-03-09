@@ -30,15 +30,18 @@
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.SeguroDeVida"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.CalculadorDeImposto"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.especial.ContaEspecial"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.teste.util.NumeroDaContaComparator"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.teste.util.TitularDaContaComparator"/>
 </qualifiedTypeNameHistroy>

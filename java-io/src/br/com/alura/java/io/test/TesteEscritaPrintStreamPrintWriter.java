@@ -24,7 +24,7 @@ public class TesteEscritaPrintStreamPrintWriter {
 //		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));  // mais sucinto ainda  // ou
 //		PrintStream ps = new PrintStream(new File("lorem2.txt"));  // ou
 //		PrintStream ps = new PrintStream("lorem2.txt"); // também usamos quando imprimimos algo para o console // ou
-		PrintWriter ps = new PrintWriter("lorem2.txt");
+		PrintWriter ps = new PrintWriter("lorem2.txt", "UTF-8");
 		
 		ps.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		ps.println(); // mais alto nível ainda    // para pular linha

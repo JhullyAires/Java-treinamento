@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="EditorVideo"/>
-    <fullyQualifiedTypeName name="Designer"/>
-    <fullyQualifiedTypeName name="ContaPoupanca"/>
-    <fullyQualifiedTypeName name="Gerente"/>
-    <fullyQualifiedTypeName name="SistemaInterno"/>
-    <fullyQualifiedTypeName name="Administrador"/>
-    <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
-    <fullyQualifiedTypeName name="AutenticacaoUtil"/>
-    <fullyQualifiedTypeName name="Tributavel"/>
-    <fullyQualifiedTypeName name="SeguroDeVida"/>
-    <fullyQualifiedTypeName name="CalculadorDeImposto"/>
-    <fullyQualifiedTypeName name="br.com.alura.main.Prioridade"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="MinhaExcecao"/>
     <fullyQualifiedTypeName name="ContaCorrente"/>
@@ -44,20 +32,32 @@
     <fullyQualifiedTypeName name="br.com.bytebank.banco.teste.util.TitularDaContaComparator"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.Reader"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.PrintStream"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+    <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="br.com.alura.java.io.test.Cliente"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>

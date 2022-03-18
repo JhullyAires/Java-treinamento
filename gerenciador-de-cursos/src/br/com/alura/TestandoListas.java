@@ -1,6 +1,7 @@
 package br.com.alura;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class TestandoListas {
 	public static void main(String[] args) {
@@ -25,5 +26,32 @@ public class TestandoListas {
 		
 		String primeiraAula = aulas.get(0);
 		System.out.println("A primeira aula é " + primeiraAula);
+		
+		for (int i = 0; i < aulas.size(); i++) {
+			System.out.println("Aulas: " + aulas.get(i));
+		}
+		
+		System.out.println(aulas.size());
+		
+		aulas.forEach(aula -> {
+			System.out.println("percorrendo: ");
+			System.out.println("Aula " + aula);
+			
+		});
+//		// parecidos, tanto faz qual usar, só o .forEach que é mais elegante
+//		for (String aula : aulas) {      // lê-se: para cada string aula dentro de aulas, faça...
+//			System.out.println("Aula: " + aula);
+//		}
+		
+		aulas.add("Aumentando nosso conhecimento");
+		System.out.println("!!! antes de ordenados");
+		System.out.println(aulas); // antes de ordenados
+		
+		Collections.sort(aulas);
+		System.out.println("!!! depois de ordenados");
+		System.out.println(aulas); // depois de ordenados
+		
+		aulas.sort(null);
+		
 	}
 }

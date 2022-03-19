@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="MinhaExcecao"/>
-    <fullyQualifiedTypeName name="ContaCorrente"/>
-    <fullyQualifiedTypeName name="SaldoInsuficienteException"/>
-    <fullyQualifiedTypeName name="Conexao"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
-    <fullyQualifiedTypeName name="modelo.Conta"/>
-    <fullyQualifiedTypeName name="modelo.CalculadorDeImposto"/>
     <fullyQualifiedTypeName name="modelo.SeguroDeVida"/>
     <fullyQualifiedTypeName name="modelo.ContaCorrente"/>
     <fullyQualifiedTypeName name="modelo.ContaPoupanca"/>
@@ -19,19 +10,11 @@
     <fullyQualifiedTypeName name="br.com.bytebank.banco.especial.ContaEspecial"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.teste.util.NumeroDaContaComparator"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.teste.util.TitularDaContaComparator"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -56,8 +39,25 @@
     <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="br.com.alura.java.io.test.Cliente"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="br.com.alura.Aula"/>
+    <fullyQualifiedTypeName name="br.com.alura.TesteListaDeAula"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="br.com.alura.Curso"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.sql.Array"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>

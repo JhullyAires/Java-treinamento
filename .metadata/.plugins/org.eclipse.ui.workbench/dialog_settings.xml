@@ -12,25 +12,47 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
+			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
 			<item value="org.eclipse.ui.views.ResourceNavigator"/>
 			<item value="org.eclipse.jdt.ui.JavadocView"/>
 			<item value="org.eclipse.ui.preferencePages.ColorsAndFonts"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 			<item value="2"/>
 			<item value="1"/>
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="ggas"/>
+			<item value="gcuf"/>
 			<item value="navigator"/>
 			<item value="na"/>
 			<item value="javado"/>
 			<item value="font"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item key="allPersp" value="false"/>
+		<item key="sort" value="0"/>
+		<list key="bounds">
+			<item value="351"/>
+			<item value="0"/>
+			<item value="1218"/>
+			<item value="835"/>
+		</list>
+		<list key="columns">
+			<item value="385"/>
+			<item value="771"/>
 		</list>
 	</section>
 </section>

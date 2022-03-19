@@ -3,7 +3,7 @@ package br.com.alura;
 import java.util.Collections;
 import java.util.Set;
 
-public class TestaCursoComAlura {
+public class TestaCursoComAluno {
 	public static void main(String[] args) {
 		Curso javaColecoes = new Curso("Dominando as coleções do java", "Paulo Silveira");
 		
@@ -24,8 +24,17 @@ public class TestaCursoComAlura {
 			System.out.println(a);
 		}); // para cada aluno A eu faço
 		
-		System.out.print("O aluno " + a1 + "está matriculado? ");
+		System.out.println("O aluno " + a1 + "está matriculado? ");
 		System.out.println(javaColecoes.estaMatriculado(a1));
 		
+		Aluno silva = new Aluno("João Silva", 34672);
+		System.out.println("E esse Turini, está matriculado?");
+		System.out.println(javaColecoes.estaMatriculado(silva));
+
+		System.out.println("O a1 é equals ao turini?");
+		System.out.println(a1.equals(silva));
+		
+		// se o a1 for equals ao turini, obrigatoriamente o seguinte é true:
+		System.out.println(a1.hashCode() == silva.hashCode());
 	}
 }

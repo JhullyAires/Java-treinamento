@@ -21,14 +21,14 @@ public class TestaCursoComAluno {
 		javaColecoes.matricula(a3);
 		
 		System.out.println("Todos os alunos matriculados: ");
-//		javaColecoes.getAlunos().forEach(a -> {
-//			System.out.println(a);
-//		}); // para cada aluno A eu faço
-//		
-//		// usando forEach
-//		for(Aluno a : javaColecoes.getAlunos()) {
-//			System.out.println(a);
-//		}
+		javaColecoes.getAlunos().forEach(a -> {
+			System.out.println(a);
+		}); // para cada aluno A eu faço
+		
+		// usando forEach
+		for(Aluno a : javaColecoes.getAlunos()) {
+			System.out.println(a);
+		}
 		
 		// usando a forma mais antiga chamado Iterator:
 		Set<Aluno> alunos = javaColecoes.getAlunos();

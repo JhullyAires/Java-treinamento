@@ -58,7 +58,13 @@ public class ExemploCursos {
 //			.findAny()
 //			.ifPresent(c -> System.out.println(c.getNome()));
 		
+		// filtrando cursos
 		cursos = cursos.stream()
+			.filter(c -> c.getAlunos() >= 50)
+			.collect(Collectors.toList());
+		
+		// ou 
+		List<Curso> cursosFiltrados = cursos.stream()
 			.filter(c -> c.getAlunos() >= 50)
 			.collect(Collectors.toList());
 		

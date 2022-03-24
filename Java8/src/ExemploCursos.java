@@ -37,6 +37,7 @@ public class ExemploCursos {
 		// LAMBDA
 //		cursos.forEach(c -> System.out.println(c.getNome()));
 
+		// calculando a soma
 		int sum = cursos.stream()
 			.filter(c -> c.getAlunos() > 100)
 //			.map(c -> c.getAlunos())   // ou: .map(Curso::getAlunos)
@@ -47,18 +48,23 @@ public class ExemploCursos {
 
 		System.out.println(sum);
 		
+		// calculando média
+		cursos.stream()
+			.mapToInt(c -> c.getAlunos())
+			.average();
+		
 //		cursos = cursos.stream()
 //			.filter(c -> c.getAlunos() >= 100)
 //			.findAny()
 //			.ifPresent(c -> System.out.println(c.getNome()));
 		
 		cursos = cursos.stream()
-			.filter(c -> c.getAlunos() >= 100)
+			.filter(c -> c.getAlunos() >= 50)
 			.collect(Collectors.toList());
 		
 		cursos.stream()
 			.forEach(c -> System.out.println(c.getNome()));
-
+		
 		cursos.stream()
 			.filter(c -> c.getAlunos() >= 100)
 			.collect(Collectors.toMap(

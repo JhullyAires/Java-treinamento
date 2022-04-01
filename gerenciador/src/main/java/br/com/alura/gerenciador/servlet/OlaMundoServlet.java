@@ -15,6 +15,7 @@ public class OlaMundoServlet extends HttpServlet{
 
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+		
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
 		out.println("<body>");
@@ -22,7 +23,7 @@ public class OlaMundoServlet extends HttpServlet{
 		out.println("</body>");
 		out.println("</html>");
 
-		System.out.println("o servlet OlaMundoServlet foi chamado");
+		System.out.println("o servlet OlaMundoServlet foi chamado");  // aparece no console
 	}
 	
 }
